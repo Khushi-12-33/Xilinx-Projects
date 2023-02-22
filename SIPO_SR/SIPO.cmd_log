@@ -1,0 +1,4 @@
+xst -ise "C:/Xilinx/.MyProjects/SIPO_SR/SIPO_SR" -intstyle ise -ifn SIPO.xst -ofn SIPO.syr
+xst -ise "C:/Xilinx/.MyProjects/SIPO_SR/SIPO_SR" -intstyle ise -ifn SIPO.xst -ofn SIPO.syr
+xst -ise "C:/Xilinx/.MyProjects/SIPO_SR/SIPO_SR" -intstyle ise -ifn SIPO.xst -ofn SIPO.syr
+xst -ise "C:/Xilinx/.MyProjects/SIPO_SR/SIPO_SR" -intstyle ise -ifn SIPO.xst -ofn SIPO.syr

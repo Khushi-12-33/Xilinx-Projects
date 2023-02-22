@@ -1,0 +1,6 @@
+V3 3
+FL $XILINX/.MyProjects/SIPO_SR/SIPO.vhd 2021/06/01.10:56:53 I.24
+EN work/SIPO 1622525222            FL $XILINX/.MyProjects/SIPO_SR/SIPO.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/SIPO/Behavioral 1622525223 FL $XILINX/.MyProjects/SIPO_SR/SIPO.vhd EN work/SIPO 1622525222

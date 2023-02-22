@@ -1,0 +1,6 @@
+AR cmp4_test testbench_arch C:/Xilinx/.MyProjects/CMP4/CMP4_TEST.vhw sub00/vhpl03 1619502999
+AR cmp_test testbench_arch C:/Xilinx/.MyProjects/CMP4/CMP_TEST.vhw sub00/vhpl05 1619628314
+EN cmp_4 NULL C:/Xilinx/.MyProjects/CMP4/CMP_4.vhd sub00/vhpl00 1619628235
+EN cmp4_test NULL C:/Xilinx/.MyProjects/CMP4/CMP4_TEST.vhw sub00/vhpl02 1619502998
+EN cmp_test NULL C:/Xilinx/.MyProjects/CMP4/CMP_TEST.vhw sub00/vhpl04 1619628313
+AR cmp_4 behavioral C:/Xilinx/.MyProjects/CMP4/CMP_4.vhd sub00/vhpl01 1619628236

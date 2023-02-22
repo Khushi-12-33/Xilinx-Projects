@@ -1,0 +1,6 @@
+xst -ise "C:/Xilinx/.MyProjects/PISO_SR/PISO_SR" -intstyle ise -ifn piso.xst -ofn piso.syr
+xst -ise "C:/Xilinx/.MyProjects/PISO_SR/PISO_SR" -intstyle ise -ifn piso.xst -ofn piso.syr
+xst -ise "C:/Xilinx/.MyProjects/PISO_SR/PISO_SR" -intstyle ise -ifn piso.xst -ofn piso.syr
+xst -ise "C:/Xilinx/.MyProjects/PISO_SR/PISO_SR" -intstyle ise -ifn piso.xst -ofn piso.syr
+xst -ise "C:/Xilinx/.MyProjects/PISO_SR/PISO_SR" -intstyle ise -ifn piso.xst -ofn piso.syr
+xst -ise "C:/Xilinx/.MyProjects/PISO_SR/PISO_SR" -intstyle ise -ifn piso.xst -ofn piso.syr

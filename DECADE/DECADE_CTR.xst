@@ -1,0 +1,4 @@
+set -tmpdir ./xst/projnav.tmp
+elaborate
+-ifn DECADE_CTR.prj
+-ifmt mixed

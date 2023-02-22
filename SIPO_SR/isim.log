@@ -1,0 +1,32 @@
+ command line:
+   ./SIPO_TEST_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  57950
+
+Tue Jun 01 10:54:07 2021
+
+Total Line Count = 759
+
+ Elaboration time 0.03125 sec.
+
+ Estimate current memory usage 73.0644 Meg. 
+
+ Total signals 8
+ Total nets 7
+ Total signal drivers 4
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 3
+ntrace select -o on -n /SIPO_TEST/clk 
+ntrace select -o on -n /SIPO_TEST/e 
+ntrace select -o on -n /SIPO_TEST/d 
+ntrace select -o on -n /SIPO_TEST/q 
+ntrace select -o on -n /SIPO_TEST/q 
+ntrace select -o on -n /SIPO_TEST/q 
+ntrace select -o on -n /SIPO_TEST/q 
+ntrace select -o on -n /SIPO_TEST/q 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

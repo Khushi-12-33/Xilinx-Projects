@@ -1,0 +1,8 @@
+EN cntr_updown NULL C:/Xilinx/.MyProjects/CNTR/CNTR_UPDOWN.vhd sub00/vhpl00 1621488050
+AR ctr_testn_vhd behavior C:/Xilinx/.MyProjects/CNTR/CTR_TESTN.vhd sub00/vhpl07 1621677627
+AR cntr_updown behavioral C:/Xilinx/.MyProjects/CNTR/CNTR_UPDOWN.vhd sub00/vhpl01 1621488051
+EN testbench_vhd NULL C:/Xilinx/.MyProjects/CNTR/TESTBENCH.vhd sub00/vhpl04 1621676776
+AR ctr_test testbench_arch C:/Xilinx/.MyProjects/CNTR/CTR_TEST.vhw sub00/vhpl03 1621671527
+AR testbench_vhd behavior C:/Xilinx/.MyProjects/CNTR/TESTBENCH.vhd sub00/vhpl05 1621676777
+EN ctr_test NULL C:/Xilinx/.MyProjects/CNTR/CTR_TEST.vhw sub00/vhpl02 1621671526
+EN ctr_testn_vhd NULL C:/Xilinx/.MyProjects/CNTR/CTR_TESTN.vhd sub00/vhpl06 1621677626

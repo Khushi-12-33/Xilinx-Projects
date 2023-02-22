@@ -1,0 +1,1 @@
+xst -ise "C:/Xilinx/.MyProjects/74181/74181" -intstyle ise -ifn ALU_4.xst -ofn ALU_4.syr

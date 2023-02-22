@@ -1,0 +1,2 @@
+vhdl work "UP_COUNTER.vhd"
+vhdl work "UP_TEST.vhw"

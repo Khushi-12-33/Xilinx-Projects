@@ -1,0 +1,4 @@
+AR alu_test testbench_arch C:/Xilinx/.MyProjects/ALU/ALU_TEST.vhw sub00/vhpl03 1620900080
+EN alu_test NULL C:/Xilinx/.MyProjects/ALU/ALU_TEST.vhw sub00/vhpl02 1620900079
+AR alu_4 behavioral C:/Xilinx/.MyProjects/ALU/ALU_4.vhd sub00/vhpl01 1620899788
+EN alu_4 NULL C:/Xilinx/.MyProjects/ALU/ALU_4.vhd sub00/vhpl00 1620899787

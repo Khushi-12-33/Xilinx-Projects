@@ -1,0 +1,4 @@
+EN pipo_test NULL C:/Xilinx/.MyProjects/PIPO/PIPO_TEST.vhw sub00/vhpl02 1622094988
+AR pipo_sr behavioral C:/Xilinx/.MyProjects/PIPO/PIPO_SR.vhd sub00/vhpl01 1622094987
+AR pipo_test testbench_arch C:/Xilinx/.MyProjects/PIPO/PIPO_TEST.vhw sub00/vhpl03 1622094989
+EN pipo_sr NULL C:/Xilinx/.MyProjects/PIPO/PIPO_SR.vhd sub00/vhpl00 1622094986

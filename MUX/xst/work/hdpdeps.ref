@@ -1,0 +1,6 @@
+V3 3
+FL $XILINX/.MyProjects/MUX/mux8_1.vhd 2021/05/30.13:37:29 I.24
+EN work/mux8_1 1623304386          FL $XILINX/.MyProjects/MUX/mux8_1.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/mux8_1/Behavioral 1623304387 FL $XILINX/.MyProjects/MUX/mux8_1.vhd EN work/mux8_1 1623304386

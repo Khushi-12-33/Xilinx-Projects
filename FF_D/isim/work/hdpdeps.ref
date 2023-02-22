@@ -1,0 +1,13 @@
+V3 7
+FL $XILINX/.MyProjects/FF_D/D_FF.vhd 2021/05/13.15:07:47 I.24
+EN work/D_FF 1620898778            FL $XILINX/.MyProjects/FF_D/D_FF.vhd \
+      PB ieee/std_logic_1164 1132105529 PB ieee/std_logic_arith 1132105531 \
+      PB ieee/STD_LOGIC_UNSIGNED 1132105537
+AR work/D_FF/Behavioral 1620898779 FL $XILINX/.MyProjects/FF_D/D_FF.vhd EN work/D_FF 1620898778
+FL $XILINX/.MyProjects/FF_D/D_TEST.vhw 2021/05/13.15:09:27 I.24
+EN work/D_TEST 1620898780          FL $XILINX/.MyProjects/FF_D/D_TEST.vhw \
+      PB ieee/std_logic_1164 1132105529 PB ieee/std_logic_arith 1132105531 \
+      PB ieee/STD_LOGIC_UNSIGNED 1132105537 PB ieee/STD_LOGIC_TEXTIO 1132105539 \
+      PB std/textio 1132105521
+AR work/D_TEST/testbench_arch 1620898781 FL $XILINX/.MyProjects/FF_D/D_TEST.vhw \
+      EN work/D_TEST 1620898780 CP D_FF    PB ieee/STD_LOGIC_TEXTIO 1132105539

@@ -1,0 +1,6 @@
+AR bg_2 behavioral C:/Xilinx/.MyProjects/BG2/BG_2.vhd sub00/vhpl05 1622356953
+AR bg2_test testbench_arch C:/Xilinx/.MyProjects/BG2/BG2_TEST.vhw sub00/vhpl03 1622356955
+EN bg2_test NULL C:/Xilinx/.MyProjects/BG2/BG2_TEST.vhw sub00/vhpl02 1622356954
+AR bg2 behavioral C:/Xilinx/.MyProjects/BG2/BG2.vhd sub00/vhpl01 1618650787
+EN bg_2 NULL C:/Xilinx/.MyProjects/BG2/BG_2.vhd sub00/vhpl04 1622356952
+EN bg2 NULL C:/Xilinx/.MyProjects/BG2/BG2.vhd sub00/vhpl00 1618650786

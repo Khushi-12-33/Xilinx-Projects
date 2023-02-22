@@ -1,0 +1,29 @@
+ command line:
+   ./CMP_TEST_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  52784
+
+Wed Apr 28 22:15:17 2021
+
+Total Line Count = 804
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 73.7239 Meg. 
+
+ Total signals 10
+ Total nets 11
+ Total signal drivers 5
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 2
+ntrace select -o on -n /CMP_TEST/a 
+ntrace select -o on -n /CMP_TEST/b 
+ntrace select -o on -n /CMP_TEST/g 
+ntrace select -o on -n /CMP_TEST/s 
+ntrace select -o on -n /CMP_TEST/e 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

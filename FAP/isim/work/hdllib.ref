@@ -1,0 +1,4 @@
+EN fap_fa NULL C:/Xilinx/FAP/FAP_FA.vhd sub00/vhpl00 1620278566
+EN fap_test NULL C:/Xilinx/FAP/FAP_TEST.vhw sub00/vhpl02 1620278568
+AR fap_fa behavioral C:/Xilinx/FAP/FAP_FA.vhd sub00/vhpl01 1620278567
+AR fap_test testbench_arch C:/Xilinx/FAP/FAP_TEST.vhw sub00/vhpl03 1620278569

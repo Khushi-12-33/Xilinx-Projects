@@ -1,0 +1,4 @@
+EN dl NULL C:/Xilinx/.MyProjects/dl/dl.vhd sub00/vhpl00 1618812085
+AR dl behavioral C:/Xilinx/.MyProjects/dl/dl.vhd sub00/vhpl01 1618812086
+AR dl_test testbench_arch C:/Xilinx/.MyProjects/dl/dl_test.vhw sub00/vhpl03 1618812088
+EN dl_test NULL C:/Xilinx/.MyProjects/dl/dl_test.vhw sub00/vhpl02 1618812087

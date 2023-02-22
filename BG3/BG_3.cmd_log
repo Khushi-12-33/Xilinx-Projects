@@ -1,0 +1,1 @@
+xst -ise "C:/Xilinx/.MyProjects/BG3/BG3" -intstyle ise -ifn BG_3.xst -ofn BG_3.syr

@@ -1,0 +1,1 @@
+xst -ise "C:/Xilinx/.MyProjects/STATE/STATE" -intstyle ise -ifn MOD5.xst -ofn MOD5.syr

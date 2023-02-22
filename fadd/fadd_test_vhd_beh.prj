@@ -1,0 +1,2 @@
+vhdl work "f_add.vhd"
+vhdl work "fadd_test.vhd"

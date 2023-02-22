@@ -1,0 +1,6 @@
+EN bg_3 NULL C:/Xilinx/.MyProjects/BG3/BG_3.vhd sub00/vhpl04 1622357594
+EN bg3 NULL C:/Xilinx/.MyProjects/BG3/BG3.vhd sub00/vhpl00 1618652112
+EN bg3_test NULL C:/Xilinx/.MyProjects/BG3/BG3_TEST.vhw sub00/vhpl02 1622357596
+AR bg_3 behavioral C:/Xilinx/.MyProjects/BG3/BG_3.vhd sub00/vhpl05 1622357595
+AR bg3_test testbench_arch C:/Xilinx/.MyProjects/BG3/BG3_TEST.vhw sub00/vhpl03 1622357597
+AR bg3 behavioral C:/Xilinx/.MyProjects/BG3/BG3.vhd sub00/vhpl01 1618652113

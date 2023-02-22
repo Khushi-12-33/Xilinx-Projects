@@ -1,0 +1,26 @@
+ command line:
+   ./LED_TEST_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  55965
+
+Fri May 28 18:54:02 2021
+
+Total Line Count = 746
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 72.8678 Meg. 
+
+ Total signals 5
+ Total nets 3
+ Total signal drivers 2
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 3
+ntrace select -o on -n /LED_TEST/refclk 
+ntrace select -o on -n /LED_TEST/led 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

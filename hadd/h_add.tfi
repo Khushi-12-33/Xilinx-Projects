@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+h_add instance_name (
+    .A(A), 
+    .B(B), 
+    .S(S), 
+    .COUT(COUT)
+    );
+
+

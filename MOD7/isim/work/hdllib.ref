@@ -1,0 +1,4 @@
+AR mod_7 behavioral C:/Xilinx/.MyProjects/MOD7/MOD_7.vhd sub00/vhpl01 1622541402
+EN mod_7 NULL C:/Xilinx/.MyProjects/MOD7/MOD_7.vhd sub00/vhpl00 1622541401
+AR mod7_test testbench_arch C:/Xilinx/.MyProjects/MOD7/MOD7_TEST.vhw sub00/vhpl03 1622541473
+EN mod7_test NULL C:/Xilinx/.MyProjects/MOD7/MOD7_TEST.vhw sub00/vhpl02 1622541472

@@ -1,0 +1,4 @@
+AR dec2_4 behavioral C:/Xilinx/.MyProjects/DEC/DEC2_4.vhd sub00/vhpl01 1619192057
+EN dec_test NULL C:/Xilinx/.MyProjects/DEC/DEC_TEST.vhw sub00/vhpl02 1619192058
+AR dec_test testbench_arch C:/Xilinx/.MyProjects/DEC/DEC_TEST.vhw sub00/vhpl03 1619192059
+EN dec2_4 NULL C:/Xilinx/.MyProjects/DEC/DEC2_4.vhd sub00/vhpl00 1619192056

@@ -1,0 +1,1 @@
+xst -ise "C:/Xilinx/FAP/FAP" -intstyle ise -ifn FAP_FA.xst -ofn FAP_FA.syr

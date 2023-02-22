@@ -1,0 +1,6 @@
+V3 3
+FL $XILINX/.MyProjects/CMP4/CMP_4.vhd 2021/04/28.22:12:16 I.24
+EN work/CMP_4 1619628224           FL $XILINX/.MyProjects/CMP4/CMP_4.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/CMP_4/Behavioral 1619628225 FL $XILINX/.MyProjects/CMP4/CMP_4.vhd EN work/CMP_4 1619628224

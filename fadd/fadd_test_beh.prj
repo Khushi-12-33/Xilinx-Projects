@@ -1,0 +1,5 @@
+vhdl work "myxor3.vhd"
+vhdl work "myor3.vhd"
+vhdl work "myand2.vhd"
+vhdl work "f_add.vhd"
+vhdl work "fadd_test.vhw"

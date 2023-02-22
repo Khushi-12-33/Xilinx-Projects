@@ -1,0 +1,184 @@
+Release 8.1i - xst I.24
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.14 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.14 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: MOD5.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+     5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "MOD5.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "MOD5"
+Output Format                      : NGC
+Target Device                      : Automotive CoolRunner2
+
+---- Source Options
+Top Module Name                    : MOD5
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : YES
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+
+---- Other Options
+lso                                : MOD5.lso
+verilog2001                        : YES
+safe_implementation                : No
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Xilinx/.MyProjects/STATE/MOD5.vhd" in Library work.
+Architecture behavioral of Entity mod5 is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <MOD5> (Architecture <behavioral>).
+Entity <MOD5> analyzed. Unit <MOD5> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <MOD5>.
+    Related source file is "C:/Xilinx/.MyProjects/STATE/MOD5.vhd".
+    Found 5x4-bit ROM for signal <$n0000>.
+WARNING:Xst:737 - Found 4-bit latch for signal <Q>.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefuly review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 3-bit latch for signal <nstate>.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefuly review if it was in your intentions to describe such a latch.
+    Found 3-bit register for signal <pstate>.
+    Summary:
+	inferred   1 ROM(s).
+Unit <MOD5> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 5x4-bit ROM                                           : 1
+# Registers                                            : 1
+ 3-bit register                                        : 1
+# Latches                                              : 2
+ 3-bit latch                                           : 1
+ 4-bit latch                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 5x4-bit ROM                                           : 1
+# Registers                                            : 3
+ Flip-Flops                                            : 3
+# Latches                                              : 2
+ 3-bit latch                                           : 1
+ 4-bit latch                                           : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch  <nstate_2> (without init value) has a constant value of 0 in block <MOD5>.
+WARNING:Xst:1710 - FF/Latch  <nstate_1> (without init value) has a constant value of 0 in block <MOD5>.
+WARNING:Xst:1710 - FF/Latch  <Q_2> (without init value) has a constant value of 0 in block <MOD5>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <pstate_1> has a constant value of 0 in block <MOD5>.
+WARNING:Xst:1896 - Due to other FF/Latch trimming, FF/Latch  <pstate_2> has a constant value of 0 in block <MOD5>.
+INFO:Xst:2261 - The FF/Latch <nstate_0> in Unit <MOD5> is equivalent to the following FF/Latch, which will be removed : <Q_0> 
+
+Optimizing unit <MOD5> ...
+  implementation constraint: INIT=r	 : pstate_0
+WARNING:Xst:1426 - The value init of the FF/Latch nstate_0 hinder the constant cleaning in the block MOD5.
+   You should achieve better results by setting this init to 1.
+WARNING:Xst:1294 - Latch <nstate_0> is equivalent to a wire in block <MOD5>.
+WARNING:Xst:1294 - Latch <Q_3> is equivalent to a wire in block <MOD5>.
+WARNING:Xst:1294 - Latch <Q_1> is equivalent to a wire in block <MOD5>.
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : MOD5.ngr
+Top Level Output File Name         : MOD5
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : YES
+Target Technology                  : Automotive CoolRunner2
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 6
+
+Cell Usage :
+# BELS                             : 3
+#      GND                         : 1
+#      INV                         : 1
+#      VCC                         : 1
+# FlipFlops/Latches                : 1
+#      FDC                         : 1
+# IO Buffers                       : 6
+#      IBUF                        : 2
+#      OBUF                        : 4
+=========================================================================
+CPU : 2.34 / 2.48 s | Elapsed : 3.00 / 3.00 s
+ 
+--> 
+
+Total memory usage is 139584 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   11 (   0 filtered)
+Number of infos    :    3 (   0 filtered)
+

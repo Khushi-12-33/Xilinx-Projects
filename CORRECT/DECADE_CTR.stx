@@ -1,0 +1,22 @@
+Release 8.1i - xst I.24
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.19 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Xilinx/.MyProjects/CORRECT/DECADE_C.vhd" in Library work.
+Entity <decade_ctr> compiled.
+ERROR:HDLParsers:409 - "C:/Xilinx/.MyProjects/CORRECT/DECADE_C.vhd" Line 33. Signal 'Q' Q is at left hand side of variable assignment statement.
+CPU : 0.04 / 0.23 s | Elapsed : 0.00 / 0.00 s
+ 
+--> 
+
+Total memory usage is 135232 kilobytes
+
+Number of errors   :    1 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

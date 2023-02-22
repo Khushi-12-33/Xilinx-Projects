@@ -1,0 +1,3 @@
+xst -ise "C:/Xilinx/.MyProjects/MOD7/MOD7" -intstyle ise -ifn MOD_7.xst -ofn MOD_7.syr
+xst -ise "C:/Xilinx/.MyProjects/MOD7/MOD7" -intstyle ise -ifn MOD_7.xst -ofn MOD_7.syr
+xst -ise "C:/Xilinx/.MyProjects/MOD7/MOD7" -intstyle ise -ifn MOD_7.xst -ofn MOD_7.syr

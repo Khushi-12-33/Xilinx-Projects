@@ -1,0 +1,197 @@
+Release 8.1i - xst I.24
+Copyright (c) 1995-2005 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.06 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.06 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: ALU_4.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) HDL Analysis
+  4) HDL Synthesis
+     4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+     5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Final Report
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ALU_4.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ALU_4"
+Output Format                      : NGC
+Target Device                      : Automotive CoolRunner2
+
+---- Source Options
+Top Module Name                    : ALU_4
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+
+---- Target Options
+Add IO Buffers                     : YES
+MACRO Preserve                     : YES
+XOR Preserve                       : YES
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : YES
+RTL Output                         : Yes
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+
+---- Other Options
+lso                                : ALU_4.lso
+verilog2001                        : YES
+safe_implementation                : No
+wysiwyg                            : NO
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Xilinx/.MyProjects/74181/74181_ALU.vhd" in Library work.
+Architecture behavioral of Entity alu_4 is up to date.
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ALU_4> (Architecture <behavioral>).
+Entity <ALU_4> analyzed. Unit <ALU_4> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <ALU_4>.
+    Related source file is "C:/Xilinx/.MyProjects/74181/74181_ALU.vhd".
+WARNING:Xst:1306 - Output <Cout> is never assigned.
+    Found 4-bit subtractor for signal <$n0008> created at line 72.
+    Found 4-bit addsub for signal <$n0009>.
+    Found 4-bit adder for signal <$n0010> created at line 66.
+    Found 4-bit adder for signal <$n0011> created at line 67.
+    Found 4-bit adder for signal <$n0012> created at line 68.
+    Found 4-bit adder for signal <$n0013>.
+    Found 4-bit adder for signal <$n0014>.
+    Found 4-bit adder for signal <$n0015>.
+    Found 4-bit adder for signal <$n0016>.
+    Found 4-bit adder for signal <$n0017> created at line 73.
+    Found 4-bit adder for signal <$n0018>.
+    Found 4-bit adder for signal <$n0019>.
+    Found 4-bit adder for signal <$n0020>.
+    Found 4-bit adder for signal <$n0021>.
+    Found 4-bit adder for signal <$n0022>.
+    Found 4-bit adder for signal <$n0023> created at line 78.
+    Found 4-bit adder for signal <$n0024>.
+    Found 4-bit adder for signal <$n0025>.
+    Found 4-bit adder for signal <$n0026>.
+    Found 4-bit adder for signal <$n0027>.
+    Found 4-bit 16-to-1 multiplexer for signal <$n0032>.
+    Found 4-bit 16-to-1 multiplexer for signal <$n0033>.
+    Found 4-bit 16-to-1 multiplexer for signal <$n0034>.
+    Found 4-bit xor2 for signal <$n0038> created at line 29.
+    Summary:
+	inferred  20 Adder/Subtractor(s).
+Unit <ALU_4> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 20
+ 4-bit adder                                           : 18
+ 4-bit addsub                                          : 1
+ 4-bit subtractor                                      : 1
+# Multiplexers                                         : 3
+ 4-bit 16-to-1 multiplexer                             : 3
+# Xors                                                 : 1
+ 4-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 20
+ 4-bit adder                                           : 18
+ 4-bit addsub                                          : 1
+ 4-bit subtractor                                      : 1
+# Multiplexers                                         : 3
+ 4-bit 16-to-1 multiplexer                             : 3
+# Xors                                                 : 1
+ 4-bit xor2                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ALU_4> ...
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ALU_4.ngr
+Top Level Output File Name         : ALU_4
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : YES
+Target Technology                  : Automotive CoolRunner2
+Macro Preserve                     : YES
+XOR Preserve                       : YES
+wysiwyg                            : NO
+
+Design Statistics
+# IOs                              : 19
+
+Cell Usage :
+# BELS                             : 870
+#      AND2                        : 312
+#      AND3                        : 37
+#      AND4                        : 5
+#      GND                         : 1
+#      INV                         : 237
+#      OR2                         : 154
+#      OR3                         : 23
+#      XOR2                        : 101
+# IO Buffers                       : 18
+#      IBUF                        : 14
+#      OBUF                        : 4
+=========================================================================
+CPU : 1.61 / 1.67 s | Elapsed : 1.00 / 1.00 s
+ 
+--> 
+
+Total memory usage is 144640 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

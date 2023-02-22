@@ -1,0 +1,4 @@
+AR func_test testbench_arch C:/Xilinx/.MyProjects/FUNC/FUNC_TEST.vhw sub00/vhpl03 1620305321
+AR func_demo behavioral C:/Xilinx/.MyProjects/FUNC/FUNC_DEMO.vhd sub00/vhpl01 1620305319
+EN func_demo NULL C:/Xilinx/.MyProjects/FUNC/FUNC_DEMO.vhd sub00/vhpl00 1620305318
+EN func_test NULL C:/Xilinx/.MyProjects/FUNC/FUNC_TEST.vhw sub00/vhpl02 1620305320

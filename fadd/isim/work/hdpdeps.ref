@@ -1,0 +1,37 @@
+V3 26
+FL $XILINX/.MyProjects/fadd/myand2.vhd 2021/05/30.12:47:10 I.24
+EN work/myand2 1622359296          FL $XILINX/.MyProjects/fadd/myand2.vhd \
+      PB ieee/std_logic_1164 1132105529 PB ieee/std_logic_arith 1132105531 \
+      PB ieee/STD_LOGIC_UNSIGNED 1132105537
+AR work/myand2/Behavioral 1622359297 FL $XILINX/.MyProjects/fadd/myand2.vhd EN work/myand2 1622359296
+FL $XILINX/.MyProjects/fadd/myxor3.vhd 2021/05/30.12:47:10 I.24
+EN work/myxor3 1622359294          FL $XILINX/.MyProjects/fadd/myxor3.vhd \
+      PB ieee/std_logic_1164 1132105529 PB ieee/std_logic_arith 1132105531 \
+      PB ieee/STD_LOGIC_UNSIGNED 1132105537
+AR work/myxor3/Behavioral 1622359295 FL $XILINX/.MyProjects/fadd/myxor3.vhd EN work/myxor3 1622359294
+FL $XILINX/.MyProjects/fadd/f_add.vhd 2021/04/12.12:01:01 I.24
+AR work/f_add/Behavioral -1 FL $XILINX/.MyProjects/fadd/f_add.vhd EN work/f_add 1618831760 \
+      CP myxor3         CP myand2         CP myor3
+FL $XILINX/.MyProjects/fadd/F_ADD.vhd 2021/05/30.12:51:02 I.24
+EN work/f_add 1622359300           FL $XILINX/.MyProjects/fadd/F_ADD.vhd \
+      PB ieee/std_logic_1164 1132105529 PB ieee/std_logic_arith 1132105531 \
+      PB ieee/STD_LOGIC_UNSIGNED 1132105537
+AR work/F_ADD/struct 1622359301    FL $XILINX/.MyProjects/fadd/F_ADD.vhd EN work/f_add 1622359300 \
+      CP myxor3         CP myand2         CP myor3
+FL $XILINX/.MyProjects/fadd/alu_test.vhw 2021/05/30.12:51:34 I.24
+EN work/alu_test 1622359302        FL $XILINX/.MyProjects/fadd/alu_test.vhw \
+      PB ieee/std_logic_1164 1132105529 PB ieee/std_logic_arith 1132105531 \
+      PB ieee/STD_LOGIC_UNSIGNED 1132105537 PB ieee/STD_LOGIC_TEXTIO 1132105539 \
+      PB std/textio 1132105521
+AR work/alu_test/testbench_arch 1622359303 FL $XILINX/.MyProjects/fadd/alu_test.vhw \
+      EN work/alu_test 1622359302 CP f_add PB ieee/STD_LOGIC_TEXTIO 1132105539
+FL $XILINX/.MyProjects/fadd/myor3.vhd 2021/05/30.12:47:10 I.24
+EN work/myor3 1622359298           FL $XILINX/.MyProjects/fadd/myor3.vhd \
+      PB ieee/std_logic_1164 1132105529 PB ieee/std_logic_arith 1132105531 \
+      PB ieee/STD_LOGIC_UNSIGNED 1132105537
+AR work/myor3/Behavioral 1622359299 FL $XILINX/.MyProjects/fadd/myor3.vhd EN work/myor3 1622359298
+FL $XILINX/.My 2021/04/12.11:30:11 I.24
+EN work/fadd_test 1618210826       FL $XILINX/.My
+AR work/fadd_test/testbench_arch 1618210827 FL $XILINX/.My
+EN work/fadd_test_vhd 1618209290   FL $XILINX/.My
+AR work/fadd_test_vhd/behavior 1618209291 FL $XILINX/.My

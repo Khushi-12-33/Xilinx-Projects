@@ -1,0 +1,4 @@
+AR enc8_3 behavioral C:/Xilinx/.MyProjects/ENC/ENC8_3.vhd sub00/vhpl01 1622363213
+AR enc_test testbench_arch C:/Xilinx/.MyProjects/ENC/ENC_TEST.vhw sub00/vhpl03 1622363215
+EN enc8_3 NULL C:/Xilinx/.MyProjects/ENC/ENC8_3.vhd sub00/vhpl00 1622363212
+EN enc_test NULL C:/Xilinx/.MyProjects/ENC/ENC_TEST.vhw sub00/vhpl02 1622363214

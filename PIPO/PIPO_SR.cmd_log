@@ -1,0 +1,1 @@
+xst -ise "C:/Xilinx/.MyProjects/PIPO/PIPO" -intstyle ise -ifn PIPO_SR.xst -ofn PIPO_SR.syr

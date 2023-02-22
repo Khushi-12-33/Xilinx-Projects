@@ -1,0 +1,1 @@
+xst -ise "C:/Xilinx/.MyProjects/ENC/ENC" -intstyle ise -ifn ENC8_3.xst -ofn ENC8_3.syr

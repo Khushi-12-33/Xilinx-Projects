@@ -1,0 +1,4 @@
+EN up_test NULL C:/Xilinx/.MyProjects/UP/UP_TEST.vhw sub00/vhpl02 1620901527
+AR up_counter behavioral C:/Xilinx/.MyProjects/UP/UP_COUNTER.vhd sub00/vhpl01 1620901526
+EN up_counter NULL C:/Xilinx/.MyProjects/UP/UP_COUNTER.vhd sub00/vhpl00 1620901525
+AR up_test testbench_arch C:/Xilinx/.MyProjects/UP/UP_TEST.vhw sub00/vhpl03 1620901528

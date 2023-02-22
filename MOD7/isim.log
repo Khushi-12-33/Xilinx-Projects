@@ -1,0 +1,27 @@
+ command line:
+   ./MOD7_TEST_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  50795
+
+Tue Jun 01 15:28:02 2021
+
+Total Line Count = 765
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 72.8719 Meg. 
+
+ Total signals 8
+ Total nets 9
+ Total signal drivers 5
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 5
+ntrace select -o on -n /MOD7_TEST/clk 
+ntrace select -o on -n /MOD7_TEST/rst 
+ntrace select -o on -n /MOD7_TEST/q 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

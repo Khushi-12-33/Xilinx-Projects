@@ -1,0 +1,22 @@
+V3 16
+FL $XILINX/.MyProjects/fadd/myand2.vhd 2021/05/30.12:47:10 I.24
+EN work/myand2 1622359270          FL $XILINX/.MyProjects/fadd/myand2.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/myand2/Behavioral 1622359271 FL $XILINX/.MyProjects/fadd/myand2.vhd EN work/myand2 1622359270
+FL $XILINX/.MyProjects/fadd/myxor3.vhd 2021/05/30.12:47:10 I.24
+EN work/myxor3 1622359268          FL $XILINX/.MyProjects/fadd/myxor3.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/myxor3/Behavioral 1622359269 FL $XILINX/.MyProjects/fadd/myxor3.vhd EN work/myxor3 1622359268
+FL $XILINX/.MyProjects/fadd/f_add.vhd 2021/05/30.12:51:02 I.24
+EN work/f_add 1622359285           FL $XILINX/.MyProjects/fadd/f_add.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/F_ADD/struct 1622359286    FL $XILINX/.MyProjects/fadd/f_add.vhd EN work/f_add 1622359285 \
+      CP myxor3         CP myand2         CP myor3
+FL $XILINX/.MyProjects/fadd/myor3.vhd 2021/05/30.12:47:10 I.24
+EN work/myor3 1622359272           FL $XILINX/.MyProjects/fadd/myor3.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/myor3/Behavioral 1622359273 FL $XILINX/.MyProjects/fadd/myor3.vhd EN work/myor3 1622359272

@@ -1,0 +1,8 @@
+xst -ise "C:/Xilinx/.MyProjects/LED/LED" -intstyle ise -ifn LED_BLINK.xst -ofn LED_BLINK.syr
+xst -ise "C:/Xilinx/.MyProjects/LED/LED" -intstyle ise -ifn LED_BLINK.xst -ofn LED_BLINK.syr
+xst -ise "C:/Xilinx/.MyProjects/LED/LED" -intstyle ise -ifn LED_BLINK.xst -ofn LED_BLINK.syr
+xst -ise "C:/Xilinx/.MyProjects/LED/LED" -intstyle ise -ifn LED_BLINK.xst -ofn LED_BLINK.syr
+xst -ise "C:/Xilinx/.MyProjects/LED/LED" -intstyle ise -ifn LED_BLINK.xst -ofn LED_BLINK.syr
+xst -ise "C:/Xilinx/.MyProjects/LED/LED" -intstyle ise -ifn LED_BLINK.xst -ofn LED_BLINK.syr
+xst -ise "C:/Xilinx/.MyProjects/LED/LED" -intstyle ise -ifn LED_BLINK.xst -ofn LED_BLINK.syr
+xst -ise "C:/Xilinx/.MyProjects/LED/LED" -intstyle ise -ifn LED_BLINK.xst -ofn LED_BLINK.syr

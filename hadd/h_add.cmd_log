@@ -1,0 +1,8 @@
+xst -ise "C:/Xilinx/.My Projects/hadd/hadd" -intstyle ise -ifn h_add.xst -ofn h_add.syr
+ngdbuild -ise "C:/Xilinx/.My Projects/hadd/hadd" -intstyle ise -dd _ngo -i -p acr2 h_add.ngc h_add.ngd
+cpldfit -ise "C:/Xilinx/.My Projects/hadd/hadd" -intstyle ise -p xa2c*-*-* -ofmt vhdl -optimize density -htmlrpt -loc on -slew fast -init low -inputs 32 -inreg on -blkfanin 38 -pterms 28 -unused keeper -terminate keeper -iostd LVCMOS18 h_add.ngd
+XSLTProcess -ise "C:/Xilinx/.My Projects/hadd/hadd" h_add_build.xml
+tsim -ise "C:/Xilinx/.My Projects/hadd/hadd" -intstyle ise h_add h_add.nga
+taengine -ise "C:/Xilinx/.My Projects/hadd/hadd" -intstyle ise -f h_add -w --format html1 -l C:/Xilinx/.My Projects/hadd/h_add_html/tim/timing_report.htm
+hprep6 -ise "C:/Xilinx/.My Projects/hadd/hadd" -s IEEE1149 -i h_add
+xst -ise "C:/Xilinx/.MyProjects/hadd/hadd" -intstyle ise -ifn h_add.xst -ofn h_add.syr

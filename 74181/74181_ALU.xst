@@ -1,0 +1,4 @@
+set -tmpdir ./xst/projnav.tmp
+elaborate
+-ifn 74181_ALU.prj
+-ifmt mixed

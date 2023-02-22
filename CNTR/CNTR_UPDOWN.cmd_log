@@ -1,0 +1,2 @@
+xst -ise "C:/Xilinx/.MyProjects/CNTR/CNTR" -intstyle ise -ifn CNTR_UPDOWN.xst -ofn CNTR_UPDOWN.syr
+xst -ise "C:/Xilinx/.MyProjects/CNTR/CNTR" -intstyle ise -ifn CNTR_UPDOWN.xst -ofn CNTR_UPDOWN.syr

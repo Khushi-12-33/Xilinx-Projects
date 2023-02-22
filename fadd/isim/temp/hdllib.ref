@@ -1,0 +1,10 @@
+EN myxor3 NULL "C:/Xilinx/.My Projects/fadd/myxor3.vhd" sub00/vhpl00 1618210833
+AR myor3 behavioral "C:/Xilinx/.My Projects/fadd/myor3.vhd" sub00/vhpl05 1618210838
+AR myxor3 behavioral "C:/Xilinx/.My Projects/fadd/myxor3.vhd" sub00/vhpl01 1618210834
+AR fadd_test_vhd behavior "C:/Xilinx/.My Projects/fadd/fadd_test.vhd" sub00/vhpl09 1618210216
+EN fadd_test_vhd NULL "C:/Xilinx/.My Projects/fadd/fadd_test.vhd" sub00/vhpl08 1618210215
+AR f_add behavioral "C:/Xilinx/.My Projects/fadd/f_add.vhd" sub00/vhpl07 1618210840
+EN f_add NULL "C:/Xilinx/.My Projects/fadd/f_add.vhd" sub00/vhpl06 1618210839
+EN myand2 NULL "C:/Xilinx/.My Projects/fadd/myand2.vhd" sub00/vhpl02 1618210835
+AR myand2 behavioral "C:/Xilinx/.My Projects/fadd/myand2.vhd" sub00/vhpl03 1618210836
+EN myor3 NULL "C:/Xilinx/.My Projects/fadd/myor3.vhd" sub00/vhpl04 1618210837

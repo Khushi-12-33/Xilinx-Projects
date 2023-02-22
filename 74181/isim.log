@@ -1,0 +1,43 @@
+ command line:
+   ./tst_alu4_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  63123
+
+Tue Apr 27 13:48:05 2021
+
+Total Line Count = 809
+
+ Elaboration time 0 sec.
+
+ Estimate current memory usage 72.8146 Meg. 
+
+ Total signals 14
+ Total nets 19
+ Total signal drivers 4
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 2
+ntrace select -o on -n /tst_alu4/s 
+ntrace select -o on -n /tst_alu4/a 
+ntrace select -o on -n /tst_alu4/a 
+ntrace select -o on -n /tst_alu4/a 
+ntrace select -o on -n /tst_alu4/a 
+ntrace select -o on -n /tst_alu4/a 
+ntrace select -o on -n /tst_alu4/b 
+ntrace select -o on -n /tst_alu4/b 
+ntrace select -o on -n /tst_alu4/b 
+ntrace select -o on -n /tst_alu4/b 
+ntrace select -o on -n /tst_alu4/b 
+ntrace select -o on -n /tst_alu4/m 
+ntrace select -o on -n /tst_alu4/cin 
+ntrace select -o on -n /tst_alu4/y 
+ntrace select -o on -n /tst_alu4/y 
+ntrace select -o on -n /tst_alu4/y 
+ntrace select -o on -n /tst_alu4/y 
+ntrace select -o on -n /tst_alu4/y 
+ntrace select -o on -n /tst_alu4/cout 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

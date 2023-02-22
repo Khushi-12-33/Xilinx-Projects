@@ -1,0 +1,29 @@
+ command line:
+   ./UP_TEST_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  53724
+
+Thu May 13 15:55:36 2021
+
+Total Line Count = 707
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 73.0604 Meg. 
+
+ Total signals 6
+ Total nets 6
+ Total signal drivers 4
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 4
+ntrace select -o on -n /UP_TEST/clk 
+ntrace select -o on -n /UP_TEST/rst 
+ntrace select -o on -n /UP_TEST/count 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+WARNING:Simulator:29 - at 100.000 ns(1): Warning: There is an
+   'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).

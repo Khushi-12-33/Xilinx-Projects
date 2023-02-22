@@ -1,0 +1,25 @@
+ command line:
+   ./FAP_TEST_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  61912
+
+Thu May 06 10:52:56 2021
+
+Total Line Count = 784
+
+ Elaboration time 0.046875 sec.
+
+ Estimate current memory usage 73.5273 Meg. 
+
+ Total signals 10
+ Total nets 5
+ Total signal drivers 5
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 2
+ntrace select -o on -m / -l this 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

@@ -1,0 +1,6 @@
+V3 3
+FL $XILINX/.MyProjects/ALU/ALU_4.vhd 2021/05/13.15:23:57 I.24
+EN work/ALU_4 1620899665           FL $XILINX/.MyProjects/ALU/ALU_4.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/ALU_4/Behavioral 1620899666 FL $XILINX/.MyProjects/ALU/ALU_4.vhd EN work/ALU_4 1620899665

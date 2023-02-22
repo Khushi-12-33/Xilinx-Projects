@@ -1,0 +1,4 @@
+AR h_add behavioral C:/Xilinx/.MyProjects/hadd/h_add.vhd sub00/vhpl01 1622358183
+EN hadd_test NULL C:/Xilinx/.MyProjects/hadd/HADD_TEST.vhw sub00/vhpl02 1622358184
+AR hadd_test testbench_arch C:/Xilinx/.MyProjects/hadd/HADD_TEST.vhw sub00/vhpl03 1622358185
+EN h_add NULL C:/Xilinx/.MyProjects/hadd/h_add.vhd sub00/vhpl00 1622358182

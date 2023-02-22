@@ -1,0 +1,36 @@
+ command line:
+   ./MUX_TEST_isim_beh.exe
+     -intstyle  ise
+     -ipchost  localhost
+     -ipcport  51513
+
+Sun May 30 13:40:49 2021
+
+Total Line Count = 762
+
+ Elaboration time 0.015625 sec.
+
+ Estimate current memory usage 72.8678 Meg. 
+
+ Total signals 8
+ Total nets 13
+ Total signal drivers 4
+ Total blocks 7
+ Total primitive blocks 1
+ Total processes 2
+ntrace select -o on -n /MUX_TEST/en 
+ntrace select -o on -n /MUX_TEST/s 
+ntrace select -o on -n /MUX_TEST/i 
+ntrace select -o on -n /MUX_TEST/i 
+ntrace select -o on -n /MUX_TEST/i 
+ntrace select -o on -n /MUX_TEST/i 
+ntrace select -o on -n /MUX_TEST/i 
+ntrace select -o on -n /MUX_TEST/i 
+ntrace select -o on -n /MUX_TEST/i 
+ntrace select -o on -n /MUX_TEST/i 
+ntrace select -o on -n /MUX_TEST/i 
+ntrace select -o on -n /MUX_TEST/y 
+ntrace start 
+run all 
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.

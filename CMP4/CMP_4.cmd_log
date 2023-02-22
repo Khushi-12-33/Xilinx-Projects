@@ -1,0 +1,2 @@
+xst -ise "C:/Xilinx/.MyProjects/CMP4/CMP4" -intstyle ise -ifn CMP_4.xst -ofn CMP_4.syr
+xst -ise "C:/Xilinx/.MyProjects/CMP4/CMP4" -intstyle ise -ifn CMP_4.xst -ofn CMP_4.syr

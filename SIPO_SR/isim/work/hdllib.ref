@@ -1,0 +1,4 @@
+EN sipo_test NULL C:/Xilinx/.MyProjects/SIPO_SR/SIPO_TEST.vhw sub00/vhpl02 1622525037
+AR sipo behavioral C:/Xilinx/.MyProjects/SIPO_SR/SIPO.vhd sub00/vhpl01 1622525036
+EN sipo NULL C:/Xilinx/.MyProjects/SIPO_SR/SIPO.vhd sub00/vhpl00 1622525035
+AR sipo_test testbench_arch C:/Xilinx/.MyProjects/SIPO_SR/SIPO_TEST.vhw sub00/vhpl03 1622525038

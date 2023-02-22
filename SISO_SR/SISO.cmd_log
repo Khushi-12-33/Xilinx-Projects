@@ -1,0 +1,1 @@
+xst -ise "C:/Xilinx/.MyProjects/SISO_SR/SISO_SR" -intstyle ise -ifn SISO.xst -ofn SISO.syr

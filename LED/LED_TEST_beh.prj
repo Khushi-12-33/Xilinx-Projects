@@ -1,0 +1,2 @@
+vhdl work "LED_BLINK.vhd"
+vhdl work "LED_TEST.vhw"

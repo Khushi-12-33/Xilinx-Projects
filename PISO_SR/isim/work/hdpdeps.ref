@@ -1,0 +1,13 @@
+V3 7
+FL $XILINX/.MyProjects/PISO_SR/PISO.vhd 2021/05/27.23:58:26 I.24
+EN work/piso 1622140140            FL $XILINX/.MyProjects/PISO_SR/PISO.vhd \
+      PB ieee/std_logic_1164 1132105529 PB ieee/std_logic_arith 1132105531 \
+      PB ieee/STD_LOGIC_UNSIGNED 1132105537
+AR work/piso/Behavioral 1622140141 FL $XILINX/.MyProjects/PISO_SR/PISO.vhd EN work/piso 1622140140
+FL $XILINX/.MyProjects/PISO_SR/PISO_TEST.vhw 2021/05/27.23:48:34 I.24
+EN work/PISO_TEST 1622140142       FL $XILINX/.MyProjects/PISO_SR/PISO_TEST.vhw \
+      PB ieee/std_logic_1164 1132105529 PB ieee/std_logic_arith 1132105531 \
+      PB ieee/STD_LOGIC_UNSIGNED 1132105537 PB ieee/STD_LOGIC_TEXTIO 1132105539 \
+      PB std/textio 1132105521
+AR work/PISO_TEST/testbench_arch 1622140143 FL $XILINX/.MyProjects/PISO_SR/PISO_TEST.vhw \
+      EN work/PISO_TEST 1622140142 CP piso PB ieee/STD_LOGIC_TEXTIO 1132105539

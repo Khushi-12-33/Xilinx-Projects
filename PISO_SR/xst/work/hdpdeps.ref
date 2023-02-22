@@ -1,0 +1,6 @@
+V3 3
+FL $XILINX/.MyProjects/PISO_SR/PISO.vhd 2021/05/27.23:58:26 I.24
+EN work/piso 1622140121            FL $XILINX/.MyProjects/PISO_SR/PISO.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/piso/Behavioral 1622140122 FL $XILINX/.MyProjects/PISO_SR/PISO.vhd EN work/piso 1622140121

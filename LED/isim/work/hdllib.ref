@@ -1,0 +1,4 @@
+EN led_test NULL C:/Xilinx/.MyProjects/LED/LED_TEST.vhw sub00/vhpl02 1622208226
+AR led_test testbench_arch C:/Xilinx/.MyProjects/LED/LED_TEST.vhw sub00/vhpl03 1622208227
+AR led_blink behavioral C:/Xilinx/.MyProjects/LED/LED_BLINK.vhd sub00/vhpl01 1622208225
+EN led_blink NULL C:/Xilinx/.MyProjects/LED/LED_BLINK.vhd sub00/vhpl00 1622208224

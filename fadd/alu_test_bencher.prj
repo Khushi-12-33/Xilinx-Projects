@@ -1,0 +1,4 @@
+vhdl work "myxor3.vhd"
+vhdl work "myor3.vhd"
+vhdl work "myand2.vhd"
+vhdl work "F_ADD.vhd"

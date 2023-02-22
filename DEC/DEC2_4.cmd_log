@@ -1,0 +1,3 @@
+xst -ise "C:/Xilinx/.MyProjects/DEC/DEC" -intstyle ise -ifn DEC2_4.xst -ofn DEC2_4.syr
+xst -ise "C:/Xilinx/.MyProjects/DEC/DEC" -intstyle ise -ifn DEC2_4.xst -ofn DEC2_4.syr
+xst -ise "C:/Xilinx/.MyProjects/DEC/DEC" -intstyle ise -ifn DEC2_4.xst -ofn DEC2_4.syr

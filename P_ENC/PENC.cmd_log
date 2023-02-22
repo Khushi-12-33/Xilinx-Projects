@@ -1,0 +1,2 @@
+xst -ise "C:/Xilinx/.MyProjects/P_ENC/P_ENC" -intstyle ise -ifn PENC.xst -ofn PENC.syr
+xst -ise "C:/Xilinx/.MyProjects/P_ENC/P_ENC" -intstyle ise -ifn PENC.xst -ofn PENC.syr

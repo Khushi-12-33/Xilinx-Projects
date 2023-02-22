@@ -1,0 +1,1 @@
+xst -ise "C:/Xilinx/.MyProjects/FF_D/FF_D" -intstyle ise -ifn D_FF.xst -ofn D_FF.syr

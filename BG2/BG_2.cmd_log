@@ -1,0 +1,2 @@
+xst -ise "C:/Xilinx/.MyProjects/BG2/BG2" -intstyle ise -ifn BG_2.xst -ofn BG_2.syr
+xst -ise "C:/Xilinx/.MyProjects/BG2/BG2" -intstyle ise -ifn BG_2.xst -ofn BG_2.syr

@@ -1,0 +1,4 @@
+EN piso_test NULL C:/Xilinx/.MyProjects/PISO_SR/PISO_TEST.vhw sub00/vhpl02 1622140142
+AR piso_test testbench_arch C:/Xilinx/.MyProjects/PISO_SR/PISO_TEST.vhw sub00/vhpl03 1622140143
+EN piso NULL C:/Xilinx/.MyProjects/PISO_SR/PISO.vhd sub00/vhpl00 1622140140
+AR piso behavioral C:/Xilinx/.MyProjects/PISO_SR/PISO.vhd sub00/vhpl01 1622140141

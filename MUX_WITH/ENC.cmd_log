@@ -1,0 +1,1 @@
+xst -ise "C:/Xilinx/ENC_WITH/ENC_WITH" -intstyle ise -ifn ENC.xst -ofn ENC.syr

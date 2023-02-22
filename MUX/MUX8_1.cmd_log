@@ -1,0 +1,2 @@
+xst -ise "C:/Xilinx/.MyProjects/MUX/MUX" -intstyle ise -ifn MUX8_1.xst -ofn MUX8_1.syr
+xst -ise "C:/Xilinx/.MyProjects/MUX/MUX" -intstyle ise -ifn mux8_1.xst -ofn mux8_1.syr

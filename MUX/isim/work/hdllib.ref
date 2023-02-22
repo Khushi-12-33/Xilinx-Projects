@@ -1,0 +1,4 @@
+EN mux_test NULL C:/Xilinx/.MyProjects/MUX/MUX_TEST.vhw sub00/vhpl02 1622362243
+AR mux_test testbench_arch C:/Xilinx/.MyProjects/MUX/MUX_TEST.vhw sub00/vhpl03 1622362244
+AR mux8_1 behavioral C:/Xilinx/.MyProjects/MUX/mux8_1.vhd sub00/vhpl01 1622362242
+EN mux8_1 NULL C:/Xilinx/.MyProjects/MUX/mux8_1.vhd sub00/vhpl00 1622362241

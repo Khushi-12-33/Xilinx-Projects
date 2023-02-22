@@ -1,0 +1,4 @@
+AR penc behavioral C:/Xilinx/.MyProjects/P_ENC/PENC.vhd sub00/vhpl01 1619419752
+AR test_penc testbench_arch C:/Xilinx/.MyProjects/P_ENC/test_penc.vhw sub00/vhpl03 1619419754
+EN test_penc NULL C:/Xilinx/.MyProjects/P_ENC/test_penc.vhw sub00/vhpl02 1619419753
+EN penc NULL C:/Xilinx/.MyProjects/P_ENC/PENC.vhd sub00/vhpl00 1619419751

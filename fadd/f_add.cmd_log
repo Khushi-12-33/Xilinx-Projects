@@ -1,0 +1,3 @@
+xst -ise "C:/Xilinx/.My Projects/fadd/fadd" -intstyle ise -ifn f_add.xst -ofn f_add.syr
+xst -ise "C:/Xilinx/.My Projects/fadd/fadd" -intstyle ise -ifn f_add.xst -ofn f_add.syr
+xst -ise "C:/Xilinx/.MyProjects/fadd/fadd" -intstyle ise -ifn F_ADD.xst -ofn F_ADD.syr

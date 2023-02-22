@@ -1,0 +1,1 @@
+xst -ise "C:/Xilinx/.MyProjects/FUNC/FUNC" -intstyle ise -ifn FUNC_DEMO.xst -ofn FUNC_DEMO.syr

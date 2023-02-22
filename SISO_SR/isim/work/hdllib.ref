@@ -1,0 +1,4 @@
+EN siso_test NULL C:/Xilinx/.MyProjects/SISO_SR/SISO_TEST.vhw sub00/vhpl02 1622107527
+AR siso behavioral C:/Xilinx/.MyProjects/SISO_SR/SISO.vhd sub00/vhpl01 1622107526
+EN siso NULL C:/Xilinx/.MyProjects/SISO_SR/SISO.vhd sub00/vhpl00 1622107525
+AR siso_test testbench_arch C:/Xilinx/.MyProjects/SISO_SR/SISO_TEST.vhw sub00/vhpl03 1622107528

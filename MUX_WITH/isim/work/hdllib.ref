@@ -1,0 +1,4 @@
+EN mux_test NULL C:/Xilinx/ENC_WITH/MUX_TEST.vhw sub00/vhpl02 1620110634
+AR mux_test testbench_arch C:/Xilinx/ENC_WITH/MUX_TEST.vhw sub00/vhpl03 1620110635
+EN enc NULL C:/Xilinx/ENC_WITH/ENC.vhd sub00/vhpl00 1620110505
+AR enc behavioral C:/Xilinx/ENC_WITH/ENC.vhd sub00/vhpl01 1620110506

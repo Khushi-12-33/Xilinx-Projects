@@ -1,0 +1,6 @@
+V3 3
+FL $XILINX/.MyProjects/ENC/ENC8_3.vhd 2021/05/30.13:53:40 I.24
+EN work/ENC8_3 1622363042          FL $XILINX/.MyProjects/ENC/ENC8_3.vhd \
+      PB ieee/std_logic_1164 1131108373 PB ieee/std_logic_arith 1131108375 \
+      PB ieee/STD_LOGIC_UNSIGNED 1131108379
+AR work/ENC8_3/Behavioral 1622363043 FL $XILINX/.MyProjects/ENC/ENC8_3.vhd EN work/ENC8_3 1622363042
